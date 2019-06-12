@@ -1,0 +1,278 @@
+[all:vars]
+ansible_port=22
+
+[student1]
+student1-ansible ansible_host=34.229.110.44 ansible_user=ec2-user
+student1-node1 ansible_host=3.85.15.63 ansible_user=ec2-user
+student1-node2 ansible_host=54.80.147.181 ansible_user=ec2-user
+student1-node3 ansible_host=18.234.178.231 ansible_user=ec2-user
+[student2]
+student2-ansible ansible_host=54.80.86.144 ansible_user=ec2-user
+student2-node1 ansible_host=35.153.158.220 ansible_user=ec2-user
+student2-node2 ansible_host=34.207.232.188 ansible_user=ec2-user
+student2-node3 ansible_host=54.196.55.231 ansible_user=ec2-user
+[student3]
+student3-ansible ansible_host=3.86.66.25 ansible_user=ec2-user
+student3-node1 ansible_host=34.229.52.174 ansible_user=ec2-user
+student3-node2 ansible_host=35.171.151.60 ansible_user=ec2-user
+student3-node3 ansible_host=35.171.86.193 ansible_user=ec2-user
+[student4]
+student4-ansible ansible_host=54.224.19.208 ansible_user=ec2-user
+student4-node1 ansible_host=54.89.16.169 ansible_user=ec2-user
+student4-node2 ansible_host=18.215.247.253 ansible_user=ec2-user
+student4-node3 ansible_host=54.165.17.248 ansible_user=ec2-user
+[student5]
+student5-ansible ansible_host=54.158.128.159 ansible_user=ec2-user
+student5-node1 ansible_host=18.212.107.10 ansible_user=ec2-user
+student5-node2 ansible_host=3.90.155.190 ansible_user=ec2-user
+student5-node3 ansible_host=54.81.180.124 ansible_user=ec2-user
+[student6]
+student6-ansible ansible_host=52.90.246.234 ansible_user=ec2-user
+student6-node1 ansible_host=35.175.204.19 ansible_user=ec2-user
+student6-node2 ansible_host=3.89.3.147 ansible_user=ec2-user
+student6-node3 ansible_host=3.92.167.210 ansible_user=ec2-user
+[student7]
+student7-ansible ansible_host=3.93.69.213 ansible_user=ec2-user
+student7-node1 ansible_host=3.84.174.189 ansible_user=ec2-user
+student7-node2 ansible_host=3.89.85.63 ansible_user=ec2-user
+student7-node3 ansible_host=34.235.111.139 ansible_user=ec2-user
+[student8]
+student8-ansible ansible_host=204.236.245.87 ansible_user=ec2-user
+student8-node1 ansible_host=54.145.197.30 ansible_user=ec2-user
+student8-node2 ansible_host=18.234.91.178 ansible_user=ec2-user
+student8-node3 ansible_host=3.82.3.182 ansible_user=ec2-user
+[student9]
+student9-ansible ansible_host=54.81.215.150 ansible_user=ec2-user
+student9-node1 ansible_host=54.198.59.150 ansible_user=ec2-user
+student9-node2 ansible_host=52.54.184.53 ansible_user=ec2-user
+student9-node3 ansible_host=18.234.71.207 ansible_user=ec2-user
+[student10]
+student10-ansible ansible_host=34.229.24.171 ansible_user=ec2-user
+student10-node1 ansible_host=54.159.20.101 ansible_user=ec2-user
+student10-node2 ansible_host=34.229.44.154 ansible_user=ec2-user
+student10-node3 ansible_host=18.206.241.161 ansible_user=ec2-user
+[student11]
+student11-ansible ansible_host=18.234.71.136 ansible_user=ec2-user
+student11-node1 ansible_host=3.92.142.97 ansible_user=ec2-user
+student11-node2 ansible_host=54.160.176.18 ansible_user=ec2-user
+student11-node3 ansible_host=54.145.110.200 ansible_user=ec2-user
+[student12]
+student12-ansible ansible_host=54.198.131.200 ansible_user=ec2-user
+student12-node1 ansible_host=54.198.168.239 ansible_user=ec2-user
+student12-node2 ansible_host=34.229.115.168 ansible_user=ec2-user
+student12-node3 ansible_host=34.238.143.12 ansible_user=ec2-user
+[student13]
+student13-ansible ansible_host=3.91.91.205 ansible_user=ec2-user
+student13-node1 ansible_host=54.80.181.171 ansible_user=ec2-user
+student13-node2 ansible_host=54.198.45.58 ansible_user=ec2-user
+student13-node3 ansible_host=54.198.111.90 ansible_user=ec2-user
+[student14]
+student14-ansible ansible_host=54.198.126.74 ansible_user=ec2-user
+student14-node1 ansible_host=3.95.1.150 ansible_user=ec2-user
+student14-node2 ansible_host=54.87.67.25 ansible_user=ec2-user
+student14-node3 ansible_host=18.209.94.252 ansible_user=ec2-user
+[student15]
+student15-ansible ansible_host=54.198.28.34 ansible_user=ec2-user
+student15-node1 ansible_host=54.81.235.81 ansible_user=ec2-user
+student15-node2 ansible_host=52.91.156.112 ansible_user=ec2-user
+student15-node3 ansible_host=3.86.4.4 ansible_user=ec2-user
+[student16]
+student16-ansible ansible_host=35.172.115.41 ansible_user=ec2-user
+student16-node1 ansible_host=54.152.61.202 ansible_user=ec2-user
+student16-node2 ansible_host=34.207.136.138 ansible_user=ec2-user
+student16-node3 ansible_host=3.87.49.14 ansible_user=ec2-user
+[student17]
+student17-ansible ansible_host=3.81.164.121 ansible_user=ec2-user
+student17-node1 ansible_host=18.206.239.211 ansible_user=ec2-user
+student17-node2 ansible_host=34.229.53.59 ansible_user=ec2-user
+student17-node3 ansible_host=54.81.28.183 ansible_user=ec2-user
+[student18]
+student18-ansible ansible_host=3.91.92.149 ansible_user=ec2-user
+student18-node1 ansible_host=54.198.5.220 ansible_user=ec2-user
+student18-node2 ansible_host=3.87.39.249 ansible_user=ec2-user
+student18-node3 ansible_host=54.242.241.216 ansible_user=ec2-user
+[student19]
+student19-ansible ansible_host=18.215.233.114 ansible_user=ec2-user
+student19-node1 ansible_host=3.86.57.147 ansible_user=ec2-user
+student19-node2 ansible_host=3.85.132.206 ansible_user=ec2-user
+student19-node3 ansible_host=52.207.223.104 ansible_user=ec2-user
+[student20]
+student20-ansible ansible_host=54.224.175.111 ansible_user=ec2-user
+student20-node1 ansible_host=54.224.102.182 ansible_user=ec2-user
+student20-node2 ansible_host=18.234.154.18 ansible_user=ec2-user
+student20-node3 ansible_host=34.203.239.243 ansible_user=ec2-user
+[student21]
+student21-ansible ansible_host=18.232.107.100 ansible_user=ec2-user
+student21-node1 ansible_host=54.198.20.141 ansible_user=ec2-user
+student21-node2 ansible_host=18.234.92.100 ansible_user=ec2-user
+student21-node3 ansible_host=52.90.11.81 ansible_user=ec2-user
+[student22]
+student22-ansible ansible_host=54.196.24.57 ansible_user=ec2-user
+student22-node1 ansible_host=100.24.66.54 ansible_user=ec2-user
+student22-node2 ansible_host=34.238.142.13 ansible_user=ec2-user
+student22-node3 ansible_host=54.226.221.130 ansible_user=ec2-user
+[student23]
+student23-ansible ansible_host=3.81.137.13 ansible_user=ec2-user
+student23-node1 ansible_host=52.90.243.187 ansible_user=ec2-user
+student23-node2 ansible_host=3.82.43.166 ansible_user=ec2-user
+student23-node3 ansible_host=54.197.216.197 ansible_user=ec2-user
+[student24]
+student24-ansible ansible_host=3.85.19.218 ansible_user=ec2-user
+student24-node1 ansible_host=34.238.146.123 ansible_user=ec2-user
+student24-node2 ansible_host=3.82.10.39 ansible_user=ec2-user
+student24-node3 ansible_host=54.224.59.127 ansible_user=ec2-user
+[student25]
+student25-ansible ansible_host=3.81.169.121 ansible_user=ec2-user
+student25-node1 ansible_host=35.168.18.111 ansible_user=ec2-user
+student25-node2 ansible_host=34.201.163.106 ansible_user=ec2-user
+student25-node3 ansible_host=3.92.73.74 ansible_user=ec2-user
+[student26]
+student26-ansible ansible_host=18.232.102.25 ansible_user=ec2-user
+student26-node1 ansible_host=3.93.12.130 ansible_user=ec2-user
+student26-node2 ansible_host=54.162.200.206 ansible_user=ec2-user
+student26-node3 ansible_host=52.90.125.49 ansible_user=ec2-user
+[student27]
+student27-ansible ansible_host=23.20.180.240 ansible_user=ec2-user
+student27-node1 ansible_host=3.208.2.255 ansible_user=ec2-user
+student27-node2 ansible_host=34.204.99.220 ansible_user=ec2-user
+student27-node3 ansible_host=18.234.96.37 ansible_user=ec2-user
+[student28]
+student28-ansible ansible_host=107.23.211.150 ansible_user=ec2-user
+student28-node1 ansible_host=3.91.228.143 ansible_user=ec2-user
+student28-node2 ansible_host=52.90.119.137 ansible_user=ec2-user
+student28-node3 ansible_host=54.236.71.23 ansible_user=ec2-user
+[student29]
+student29-ansible ansible_host=3.89.184.4 ansible_user=ec2-user
+student29-node1 ansible_host=3.90.253.221 ansible_user=ec2-user
+student29-node2 ansible_host=34.235.122.111 ansible_user=ec2-user
+student29-node3 ansible_host=54.162.107.236 ansible_user=ec2-user
+[student30]
+student30-ansible ansible_host=3.85.230.50 ansible_user=ec2-user
+student30-node1 ansible_host=34.207.99.36 ansible_user=ec2-user
+student30-node2 ansible_host=35.173.218.89 ansible_user=ec2-user
+student30-node3 ansible_host=52.204.247.21 ansible_user=ec2-user
+[student31]
+student31-ansible ansible_host=3.80.240.40 ansible_user=ec2-user
+student31-node1 ansible_host=34.227.67.33 ansible_user=ec2-user
+student31-node2 ansible_host=35.153.158.172 ansible_user=ec2-user
+student31-node3 ansible_host=3.91.104.255 ansible_user=ec2-user
+[student32]
+student32-ansible ansible_host=3.90.30.99 ansible_user=ec2-user
+student32-node1 ansible_host=3.81.143.240 ansible_user=ec2-user
+student32-node2 ansible_host=54.89.4.8 ansible_user=ec2-user
+student32-node3 ansible_host=52.207.217.124 ansible_user=ec2-user
+[student33]
+student33-ansible ansible_host=54.88.157.8 ansible_user=ec2-user
+student33-node1 ansible_host=52.90.118.110 ansible_user=ec2-user
+student33-node2 ansible_host=35.175.241.104 ansible_user=ec2-user
+student33-node3 ansible_host=52.91.9.255 ansible_user=ec2-user
+[student34]
+student34-ansible ansible_host=54.198.111.166 ansible_user=ec2-user
+student34-node1 ansible_host=52.200.65.182 ansible_user=ec2-user
+student34-node2 ansible_host=52.91.207.111 ansible_user=ec2-user
+student34-node3 ansible_host=54.225.37.9 ansible_user=ec2-user
+[student35]
+student35-ansible ansible_host=35.153.202.32 ansible_user=ec2-user
+student35-node1 ansible_host=52.90.50.239 ansible_user=ec2-user
+student35-node2 ansible_host=34.229.61.51 ansible_user=ec2-user
+student35-node3 ansible_host=34.207.248.114 ansible_user=ec2-user
+[student36]
+student36-ansible ansible_host=3.88.151.167 ansible_user=ec2-user
+student36-node1 ansible_host=3.88.59.218 ansible_user=ec2-user
+student36-node2 ansible_host=3.90.106.122 ansible_user=ec2-user
+student36-node3 ansible_host=54.80.168.0 ansible_user=ec2-user
+[student37]
+student37-ansible ansible_host=54.82.193.181 ansible_user=ec2-user
+student37-node1 ansible_host=54.87.165.122 ansible_user=ec2-user
+student37-node2 ansible_host=18.207.192.102 ansible_user=ec2-user
+student37-node3 ansible_host=54.159.108.223 ansible_user=ec2-user
+[student38]
+student38-ansible ansible_host=54.208.210.8 ansible_user=ec2-user
+student38-node1 ansible_host=54.87.82.187 ansible_user=ec2-user
+student38-node2 ansible_host=3.92.143.186 ansible_user=ec2-user
+student38-node3 ansible_host=3.84.68.147 ansible_user=ec2-user
+[student39]
+student39-ansible ansible_host=3.95.253.107 ansible_user=ec2-user
+student39-node1 ansible_host=3.88.240.60 ansible_user=ec2-user
+student39-node2 ansible_host=35.173.240.167 ansible_user=ec2-user
+student39-node3 ansible_host=3.90.224.160 ansible_user=ec2-user
+[student40]
+student40-ansible ansible_host=54.88.155.131 ansible_user=ec2-user
+student40-node1 ansible_host=54.174.37.235 ansible_user=ec2-user
+student40-node2 ansible_host=3.85.96.252 ansible_user=ec2-user
+student40-node3 ansible_host=54.236.91.19 ansible_user=ec2-user
+[student41]
+student41-ansible ansible_host=34.226.217.222 ansible_user=ec2-user
+student41-node1 ansible_host=54.92.137.44 ansible_user=ec2-user
+student41-node2 ansible_host=3.81.107.119 ansible_user=ec2-user
+student41-node3 ansible_host=54.80.169.197 ansible_user=ec2-user
+[student42]
+student42-ansible ansible_host=18.212.106.4 ansible_user=ec2-user
+student42-node1 ansible_host=54.92.152.195 ansible_user=ec2-user
+student42-node2 ansible_host=3.81.168.193 ansible_user=ec2-user
+student42-node3 ansible_host=18.215.251.166 ansible_user=ec2-user
+[student43]
+student43-ansible ansible_host=3.84.69.148 ansible_user=ec2-user
+student43-node1 ansible_host=3.87.118.214 ansible_user=ec2-user
+student43-node2 ansible_host=54.146.53.114 ansible_user=ec2-user
+student43-node3 ansible_host=54.81.155.82 ansible_user=ec2-user
+[student44]
+student44-ansible ansible_host=34.229.182.123 ansible_user=ec2-user
+student44-node1 ansible_host=3.92.127.162 ansible_user=ec2-user
+student44-node2 ansible_host=3.87.139.191 ansible_user=ec2-user
+student44-node3 ansible_host=54.86.129.136 ansible_user=ec2-user
+[student45]
+student45-ansible ansible_host=3.81.36.158 ansible_user=ec2-user
+student45-node1 ansible_host=54.173.192.128 ansible_user=ec2-user
+student45-node2 ansible_host=34.238.159.41 ansible_user=ec2-user
+student45-node3 ansible_host=18.234.176.71 ansible_user=ec2-user
+[student46]
+student46-ansible ansible_host=54.209.170.81 ansible_user=ec2-user
+student46-node1 ansible_host=3.81.116.51 ansible_user=ec2-user
+student46-node2 ansible_host=23.20.86.163 ansible_user=ec2-user
+student46-node3 ansible_host=54.159.40.2 ansible_user=ec2-user
+[student47]
+student47-ansible ansible_host=100.26.192.92 ansible_user=ec2-user
+student47-node1 ansible_host=54.91.195.201 ansible_user=ec2-user
+student47-node2 ansible_host=54.87.70.143 ansible_user=ec2-user
+student47-node3 ansible_host=52.206.105.23 ansible_user=ec2-user
+[student48]
+student48-ansible ansible_host=54.92.128.238 ansible_user=ec2-user
+student48-node1 ansible_host=3.95.253.7 ansible_user=ec2-user
+student48-node2 ansible_host=3.81.95.242 ansible_user=ec2-user
+student48-node3 ansible_host=54.90.179.119 ansible_user=ec2-user
+[student49]
+student49-ansible ansible_host=3.91.75.203 ansible_user=ec2-user
+student49-node1 ansible_host=18.212.109.245 ansible_user=ec2-user
+student49-node2 ansible_host=34.235.156.63 ansible_user=ec2-user
+student49-node3 ansible_host=54.166.142.90 ansible_user=ec2-user
+[student50]
+student50-ansible ansible_host=52.90.101.237 ansible_user=ec2-user
+student50-node1 ansible_host=3.90.107.121 ansible_user=ec2-user
+student50-node2 ansible_host=18.234.58.185 ansible_user=ec2-user
+student50-node3 ansible_host=54.145.102.80 ansible_user=ec2-user
+[student51]
+student51-ansible ansible_host=52.90.130.187 ansible_user=ec2-user
+student51-node1 ansible_host=54.157.24.241 ansible_user=ec2-user
+student51-node2 ansible_host=3.84.217.23 ansible_user=ec2-user
+student51-node3 ansible_host=35.173.239.9 ansible_user=ec2-user
+[student52]
+student52-ansible ansible_host=35.153.99.142 ansible_user=ec2-user
+student52-node1 ansible_host=54.198.12.14 ansible_user=ec2-user
+student52-node2 ansible_host=52.90.118.183 ansible_user=ec2-user
+student52-node3 ansible_host=35.153.69.163 ansible_user=ec2-user
+[student53]
+student53-ansible ansible_host=52.73.102.253 ansible_user=ec2-user
+student53-node1 ansible_host=54.221.101.96 ansible_user=ec2-user
+student53-node2 ansible_host=3.81.211.19 ansible_user=ec2-user
+student53-node3 ansible_host=35.168.19.22 ansible_user=ec2-user
+[student54]
+student54-ansible ansible_host=18.234.94.48 ansible_user=ec2-user
+student54-node1 ansible_host=52.90.123.243 ansible_user=ec2-user
+student54-node2 ansible_host=3.81.91.15 ansible_user=ec2-user
+student54-node3 ansible_host=54.80.195.199 ansible_user=ec2-user
+[student55]
+student55-ansible ansible_host=34.235.157.235 ansible_user=ec2-user
+student55-node1 ansible_host=54.198.53.59 ansible_user=ec2-user
+student55-node2 ansible_host=54.174.202.11 ansible_user=ec2-user
+student55-node3 ansible_host=54.209.14.230 ansible_user=ec2-user
